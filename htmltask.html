@@ -1,0 +1,83 @@
+<html>
+<head></head>
+<body>
+ <table style="width:100%" border=1>
+  <tr>
+    <td><p style="text-align: center; font-weight:bold;">Form Below</p></td>
+    <td><p style="text-align: center; font-weight:bold;">Image and List</p></td>
+    </tr>
+  <tr>
+    <td> <form>
+		First name:<br>
+		<input type="text" name="firstname">
+		<br>
+		Last name:<br>
+		<input type="text" name="lastname">
+		</form>
+		 <textarea name="message" rows="10" cols="30">
+		Lets put something as default value.
+		</textarea><br /><br />
+		<strong>Please select your gender</strong>
+		 <form>
+		<input type="radio" name="sex" value="male" checked>Male
+		<br>
+		<input type="radio" name="sex" value="female">Female
+		</form> 
+		<table border=1>
+		Lemme group your person preferences separately<br />
+		<tr>
+			<td>
+		<strong>I want to know your hobbies</strong>
+		 <form>
+		<input type="checkbox" name="Travelling" value="Travelling">Travelling
+		<input type="checkbox" name="Partying" value="Partying">Partying
+		<input type="checkbox" name="Reading" value="Reading">Reading
+		</form>  
+		<strong>Lets know your current inspection</strong>
+		 <form action="testpage.php">
+		<select name="face">
+		<option value="smile">Smile</option>
+		<option value="frown">Frown</option>
+		<option value="neither">Neither</option>
+		</select>
+		</form>
+		</td>
+		</tr>
+		</table> 
+		</td>
+    <td><img src="html5.png">
+    <p style="background-color: orange; color:white;>">
+    	see the list of langauges and frameworks as their sub categories</p>
+	<p>Frameworks also have categories</p>
+    	<ul>
+    		<li>PHP</li>
+    			<ul>
+    				<li>YII Framework</li>
+    			</ul>
+			<li>Javascript</li>
+				<ul>
+    				<li>Angular JS</li>
+    				<li>Backbone JS</li>
+    					<ul>
+    						<li>Marrionette JS</li>
+    						<li>Thorax JS</li>
+    					</ul>
+    			</ul>
+			<li>Python</li>
+				<ul>
+					<li>Django</li>
+				</ul>
+		</ul>
+	</td>
+    </tr>
+   <tr>
+   	<td>
+   	<form>
+   	<input type="submit" value="mySubmit">
+   	</form>
+   </td>
+	</tr>
+</table> 
+
+</body>
+</html>
